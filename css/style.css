@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: gray;
+
+}
+
+
+div#father {
+    height: 600px;
+    background-color: rgb(1, 23, 4);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+.sons {
+    height: 200px;
+    width: 320px;
+    border-radius: 20px;
+    background-color: rgb(0, 250, 4);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+/* .sons:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgb(13, 251, 0);
+    transition: all ease-in-out .8s;
+} */
+
+.sons img {
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 50%;
+    
+}
+
+/* .sons img:hover {
+    box-shadow: 0px 0px 10px 1px;
+    transform: scale(1.2);
+    transition: all ease-in-out .8s;
+} */
+
+.text_card {
+    margin-left: 50px;
+}
